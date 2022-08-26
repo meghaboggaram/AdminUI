@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Page-number {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  border-color: transparent;
+  background-color: aqua;
+  margin-right: 5px;
+}
+
+.Current-page {
+  background-color: white;
+  border-color: aqua;
+}
+
+.Disabled-page {
+  background-color: grey;
+}
+
+.Page-number-list {
+  margin-left: 25%;
+}
+
+.Admin-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Admin-row-selected {
+  background-color: grey;
+}
